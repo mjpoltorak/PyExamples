@@ -36,17 +36,13 @@ print("")
 
 
 print (df.dtypes)
-
+print("")
 
 mavg = df['10_MA'] = df['MXUS Index'].rolling(window=10, min_periods=10, center=False).mean()
 df['10_MA'].tail()
 print (df[0:60])
+print("")
 
 mavg = df['30_MA'] = df['MXUS Index'].rolling(window=20,min_periods=20,center=False).mean()
 df['30_MA'].tail()
-print (df[0:30])
-
-# checkma = df['NDDUUS Data Check'] = math.isnan(df['NDDUUS Index'])
-# df['NDDUUS Data Check']
-
 print (df[0:30])
