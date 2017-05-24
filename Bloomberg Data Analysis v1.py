@@ -17,7 +17,7 @@ print('Pandas version ' + pd.__version__)
 print('Matplotlib version ' + matplotlib.__version__)
 
 
-Location = 'C:\Users\JArevalo\Dropbox\Jose\Test\BLPAPI_DATA.csv'
+Location = 'C:\Users\BLPAPI_DATA.csv'
 
 '''
 df = pd.io.parsers.read_csv(Location, header=[0,1], parse_dates=[['Security'],['Field']])
